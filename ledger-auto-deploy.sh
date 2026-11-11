@@ -4,7 +4,7 @@
 # 有新版就下载代码包、备份数据库、同步代码、重启服务。
 # 部署包来源：https://github.com/gjhfasami-art/shengyi-ledger-deploy（公开仓库，只有代码，没有密码和数据）
 set -u
-REPO_RAW="https://raw.githubusercontent.com/gjhfasami-art/shengyi-ledger-deploy/main"
+REPO_RAW="https://cdn.jsdelivr.net/gh/gjhfasami-art/shengyi-ledger-deploy@main"
 APP_DIR="/opt/ledger-web"
 VERSION_FILE="$APP_DIR/.deployed_version"
 LOG="/var/log/ledger-auto-deploy.log"
